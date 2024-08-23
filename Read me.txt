@@ -1,0 +1,7 @@
+XR Development File - Karthik
+
+This file was created by Karthik, a front-end developer, specifically for my XR development project. It contains [brief description of the file's contents, e.g., "JavaScript code for handling user interactions," "CSS styles for the XR interface," or "3D models of virtual objects"].
+
+This file is an integral part of my XR development project and is intended for use in conjunction with other project components.
+
+Please note: This file is proprietary and should not be shared or distributed without my explicit permission.
