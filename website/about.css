@@ -1,0 +1,111 @@
+
+.main2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: -1; 
+}
+
+body {
+    animation: fadeIn 1s ease forwards; 
+}
+
+
+.about-title{
+    font-size: 17px;
+    text-align: left;
+    line-height: 170%;
+}
+
+.about-data{
+    width: auto;
+    z-index: 3;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    background-color: black;
+    color:white;
+    padding: 2% 10%;
+}
+.about-data h1,img,p{
+    z-index: 2;
+}
+
+.about-data h1{
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.profile-pic{
+    object-fit: cover;
+    width: 37%;
+    aspect-ratio: 1/1;
+    background-attachment: fixed;
+    border-radius: 50%;
+}
+
+.data2{
+    min-height: 100vh;
+    background-color: black;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 0% 10%;
+}
+
+.card{
+    border-right: 1px solid white;
+    min-height: 70vh;
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 30px;  
+}
+
+.border-none{
+    border: none;
+}
+
+.list{
+    list-style: none;
+    text-align: left;
+    line-height: 180%;
+    width: 100%;
+}
+
+.list li{
+    margin: 15px 0px;
+}
+
+.hr{
+    width: 50%;
+    margin-top: 10px;
+    border: 2px solid rgb(200, 41, 68);
+}
+
+.head{
+    font-weight: 600;
+    text-align: left;
+    line-height: 120%;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; } 
+    100% { opacity: 1; } 
+}
+
